@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{  
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --exo: "Exo", sans-serif; 
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--exo)
+}
+
+.titulo-principal{
+    font-family:var(--exo);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
